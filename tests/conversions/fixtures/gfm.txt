@@ -1,0 +1,61 @@
+# Project Update
+
+## Overview
+
+This is **bold** and *italic* and ~~strikethrough~~ text.
+
+Here is a [link](https://example.com) and an image:
+
+![Alt text](https://example.com/image.png)
+
+### Lists
+
+- Item one
+- Item two
+  - Nested item
+- Item three
+
+1. First
+2. Second
+3. Third
+
+### Task List
+
+- [x] Completed task
+- [ ] Pending task
+
+### Code
+
+Inline `code` here.
+
+```javascript
+function hello() {
+  console.log("Hello, world!");
+}
+```
+
+### Table
+
+| Name | Age | City |
+| --- | --- | --- |
+| Alice | 30 | NYC |
+| Bob | 25 | LA |
+
+### Blockquote
+
+> This is a blockquote
+> with multiple lines.
+
+### Callout
+
+> [!NOTE]
+> This is an important note.
+
+> [!WARNING]
+> Be careful with this operation.
+
+---
+
+Footnote reference[^1].
+
+[^1]: This is the footnote content.

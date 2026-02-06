@@ -1,0 +1,30 @@
+# Announcement
+
+## Server Rules
+
+This is **bold** and *italic* and ~~strikethrough~~ and __underline__ text.
+
+### Important Info
+
+Here is a [link](https://example.com) for reference.
+
+- Rule one: Be respectful
+- Rule two: No spam
+- Rule three: Stay on topic
+
+1. First warning
+2. Second warning
+3. Ban
+
+> This is a quote from the admin.
+
+This has a ||spoiler about the ending|| in it.
+Also check ||another hidden detail|| here.
+
+-# This is small subtext below the message.
+
+```python
+print("Hello Discord!")
+```
+
+Inline `code` is also supported.

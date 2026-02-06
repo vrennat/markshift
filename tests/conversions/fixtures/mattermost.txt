@@ -1,0 +1,47 @@
+# Sprint Retro
+
+## What went well
+
+This is **bold** and *italic* and ~~strikethrough~~ text.
+
+### Highlights
+
+- Shipped the new feature on time
+- Improved test coverage to 90%
+- Good collaboration across teams
+
+1. Deploy was smooth
+2. No rollbacks needed
+
+### Kudos
+
+> Great work from the frontend team on the redesign.
+
+> [!NOTE]
+> Remember to update the sprint board.
+
+> [!TIP]
+> Use the new CLI tool for faster deploys.
+
+### Technical Details
+
+```bash
+npm run deploy --env=production
+```
+
+Inline `code`: `git merge --no-ff feature-branch`
+
+| Sprint | Velocity | Carried Over |
+| --- | --- | --- |
+| 23 | 42 | 3 |
+| 24 | 38 | 5 |
+
+[Retro board](https://miro.com/board/example)
+
+- [x] Review action items
+- [ ] Assign owners
+- [ ] Set deadlines
+
+---
+
+Final thoughts and **next steps**.

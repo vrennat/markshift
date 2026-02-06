@@ -1,0 +1,31 @@
+*Deployment Update*
+
+Hey team, here's the status:
+
+*Bold text* and _italic text_ and ~strikethrough~. This is *bold* and _italic_.
+
+We've deployed the new feature to staging. Here are the details:
+
+• First item in the list
+• Second item with `inline code`
+• Third item
+
+The PR is here: <https://github.com/example/repo/pull/42|PR #42>
+Also check <https://docs.example.com>
+
+&gt; Important: Please test before approving.
+&gt; This affects the payment flow.
+
+```
+function deploy() {
+  console.log("deploying...");
+}
+```
+
+cc <@U12345678> and <@U87654321>
+
+:rocket: :tada: Ship it!
+
+1. Run the tests
+2. Check staging
+3. Approve the PR

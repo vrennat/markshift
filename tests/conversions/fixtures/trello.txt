@@ -1,0 +1,42 @@
+# Feature: User Dashboard
+
+## Requirements
+
+This is **bold** and *italic* and ~~strikethrough~~ text.
+
+### Must Have
+
+- Display user profile information
+- Show recent activity feed
+- Include notification center
+
+### Nice to Have
+
+- Customizable widgets
+- Dark mode toggle
+- Export functionality
+
+### Implementation Notes
+
+1. Start with the profile section
+2. Add the activity feed
+3. Integrate notifications
+
+> Design review needed before implementation begins.
+
+```
+// Pseudo-code for dashboard layout
+const Dashboard = {
+  sections: ['profile', 'activity', 'notifications'],
+  layout: 'grid'
+};
+```
+
+Inline reference: `Dashboard.sections`
+
+### Links
+
+[Figma Design](https://figma.com/example)
+[API Spec](https://api.example.com/docs)
+
+Final deadline: **March 15th**.

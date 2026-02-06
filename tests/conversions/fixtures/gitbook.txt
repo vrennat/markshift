@@ -1,0 +1,45 @@
+# Getting Started
+
+## Installation
+
+This is **bold** and *italic* and ~~strikethrough~~ text.
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+- Git
+
+### Steps
+
+1. Clone the repository
+2. Install dependencies
+3. Run the dev server
+
+```bash
+git clone https://github.com/example/repo.git
+cd repo
+npm install
+npm run dev
+```
+
+Inline `code` is useful for commands.
+
+### Configuration
+
+| Option | Default | Description |
+| --- | --- | --- |
+| port | 3000 | Server port |
+| debug | false | Enable debug mode |
+
+> **Note**: Make sure to configure your environment variables before starting.
+
+[View the full docs](https://docs.example.com)
+
+### Task Checklist
+
+- [x] Install dependencies
+- [ ] Configure environment
+- [ ] Run tests
+
+![Architecture diagram](https://example.com/diagram.png)

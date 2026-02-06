@@ -1,0 +1,34 @@
+<html>
+<head><meta charset="UTF-8"></head>
+<body>
+<h1 style="font-weight:700">Meeting Agenda</h1>
+<h2>Discussion Topics</h2>
+<p>This has <strong>bold text</strong> and <em>italic text</em> and <span style="text-decoration:line-through">strikethrough</span>.</p>
+<p>Here is a <a href="https://example.com">link to docs</a>.</p>
+<h3>Action Items</h3>
+<ul>
+<li>Review the proposal</li>
+<li>Send feedback to the team</li>
+<li>Schedule follow-up meeting</li>
+</ul>
+<ol>
+<li>First priority</li>
+<li>Second priority</li>
+<li>Third priority</li>
+</ol>
+<p>Some <code>inline code</code> here.</p>
+<pre><code>function example() {
+  return true;
+}</code></pre>
+<blockquote>
+<p>This is an important quote from the stakeholder.</p>
+</blockquote>
+<table>
+<tr><th>Item</th><th>Status</th></tr>
+<tr><td>Review</td><td>Done</td></tr>
+<tr><td>Deploy</td><td>Pending</td></tr>
+</table>
+<hr>
+<p>Final notes and <strong>key takeaways</strong>.</p>
+</body>
+</html>

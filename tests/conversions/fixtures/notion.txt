@@ -1,0 +1,47 @@
+# Product Roadmap
+
+## Q1 Goals
+
+This is **bold** and *italic* text with ~~strikethrough~~.
+
+### Features
+
+1. User authentication
+2. Dashboard redesign
+3. API v2 launch
+
+### Notes
+
+- First bullet point
+- Second bullet point
+  - Nested point
+
+> This is a regular blockquote.
+
+> ℹ️ This is an informational callout about the timeline.
+
+> ⚠️ Budget constraints may affect the Q2 roadmap.
+
+> 💡 Consider using the new framework for faster development.
+
+### Links
+
+Check the [documentation](https://docs.example.com) for details.
+
+### Code
+
+```javascript
+const roadmap = {
+  q1: ['auth', 'dashboard', 'api-v2'],
+  q2: ['mobile', 'analytics'],
+};
+```
+
+| Feature | Status | Owner |
+| --- | --- | --- |
+| Auth | Done | Alice |
+| Dashboard | In Progress | Bob |
+
+- [x] Kickoff meeting
+- [ ] Design review
+- [ ] Implementation

@@ -1,0 +1,39 @@
+# TIL about markdown formats
+
+This is **bold** and *italic* and ~~strikethrough~~ text.
+
+Here's a [link](https://example.com) and some content.
+
+## Lists
+
+- First item
+- Second item
+- Third item
+
+1. Numbered one
+2. Numbered two
+
+## Special Features
+
+This contains a >!hidden spoiler!< in the text.
+And another >!secret message!< here.
+
+Superscript example: 10^9 operations per second.
+Multi-word: ^(this is superscript text)
+
+## Code
+
+Inline `code` works.
+
+```
+def hello():
+    print("Hello Reddit!")
+```
+
+> This is a blockquote
+> spanning multiple lines.
+
+| Column A | Column B |
+| --- | --- |
+| Data 1 | Data 2 |
+| Data 3 | Data 4 |

@@ -1,0 +1,54 @@
+# Research Notes
+
+## Key Findings
+
+This is **bold** and *italic* and ~~strikethrough~~ text.
+
+The ==highlighted text== is important for the review.
+Also this ==another highlight== should stand out.
+
+### Data Points
+
+- Observation one
+- Observation two
+  - Sub-observation
+- Observation three
+
+1. Step one
+2. Step two
+3. Step three
+
+### Code Sample
+
+```python
+import pandas as pd
+df = pd.read_csv("data.csv")
+print(df.describe())
+```
+
+Inline `code` reference: `df.head()`.
+
+| Metric | Value | Change |
+| --- | --- | --- |
+| Users | 1200 | +15% |
+| Revenue | $50k | +8% |
+
+> [!NOTE]
+> Review the data before publishing.
+
+> [!WARNING]
+> Sample size may be too small for conclusions.
+
+> Regular blockquote for context.
+
+[Source paper](https://example.com/paper.pdf)
+
+- [x] Collect data
+- [ ] Analyze results
+- [ ] Write report
+
+---
+
+$$
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
+$$

@@ -1,0 +1,58 @@
+---
+title: Meeting Notes
+date: 2025-01-15
+tags: [meeting, project]
+---
+
+# Weekly Standup
+
+## Attendees
+
+See [[Team Members]] for the full list.
+
+## Discussion
+
+We discussed the new feature from [[Project Alpha#Requirements]].
+
+### Resources
+
+- Reference: [[API Documentation|API Docs]]
+- Design: ![[mockup.png]]
+- Spreadsheet: ![[budget.xlsx|Budget File]]
+
+### Key Points
+
+This is **bold** and *italic* and ~~crossed out~~.
+
+> [!NOTE]
+> Remember to update the [[Changelog]] before release.
+
+> [!WARNING]
+> The API endpoint will be deprecated.
+
+### Tags
+
+This relates to #project-alpha and #backend work.
+Also tagged #urgent for tracking.
+
+### Code
+
+```python
+def process_data(input):
+    return input.strip()
+```
+
+| Status | Count |
+| --- | --- |
+| Done | 5 |
+| In Progress | 3 |
+
+- [x] Review PR
+- [ ] Update docs
+- [ ] Deploy to staging
+
+$$
+E = mc^2
+$$
+
+Inline math: $x + y = z$

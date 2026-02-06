@@ -1,0 +1,41 @@
+Alright, here's the breakdown:
+
+## How It Works
+
+The algorithm operates in three phases:
+
+### Phase 1: Initialization
+
+Set up the initial state with default values:
+
+```python
+config = {
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 100
+}
+```
+
+### Phase 2: Training
+
+The loss function is defined as $L = -\sum_{i} y_i \log(\hat{y}_i)$.
+
+- **Forward pass**: Compute predictions using **bold** matrix operations
+- **Backward pass**: Calculate gradients
+- **Update**: Adjust weights using the optimizer
+
+### Phase 3: Evaluation
+
+```python
+accuracy = model.evaluate(test_data)
+print(f"Test accuracy: {accuracy:.2%}")
+```
+
+> Keep in mind that **overfitting** can be an issue with small datasets. Use _regularization_ or ~~dropout~~ early stopping to mitigate.
+
+Performance comparison:
+
+| Model | Accuracy | F1 Score |
+|-------|----------|----------|
+| Baseline | 78.3% | 0.76 |
+| Optimized | 92.1% | 0.91 |

@@ -1,0 +1,44 @@
+# Bug Report: Login Timeout
+
+## Description
+
+The login page **times out** after *30 seconds* when the server is under load. This is **bold** and *italic* text.
+
+### Steps to Reproduce
+
+1. Navigate to the login page
+2. Enter valid credentials
+3. Click "Sign In"
+4. Wait for 30 seconds
+
+### Expected Behavior
+
+- User should be logged in within 5 seconds
+- Loading indicator should appear
+
+### Actual Behavior
+
+- Page shows ~~success~~ an error message
+- No retry mechanism available
+
+### Code Reference
+
+```typescript
+async function login(user: string, pass: string) {
+  const response = await fetch('/api/login', {
+    method: 'POST',
+    body: JSON.stringify({ user, pass }),
+  });
+  return response.json();
+}
+```
+
+### Priority
+
+| Severity | Impact | Users Affected |
+| --- | --- | --- |
+| High | Login blocked | ~500/day |
+
+> This needs to be fixed before the next release.
+
+[Related PR](https://github.com/example/repo/pull/123)
